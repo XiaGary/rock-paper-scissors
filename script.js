@@ -22,12 +22,9 @@ let humanScore;
 let computerScore;
 
 function playGame(nTimes){
-
         
     humanScore = 0;
     computerScore = 0;
-
-    
 
     for(let i = 1; i <= nTimes; i++){
         humanSelection = getHumanChoice();
