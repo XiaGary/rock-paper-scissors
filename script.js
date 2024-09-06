@@ -40,8 +40,12 @@ function playRound(humanChoice, computerChoice){
 
     if(humanScore === 5){
         results.textContent = `You have won this match!`
+        humanScore = 0;
+        computerScore = 0;
     } else if(computerScore === 5){
         results.textContent = `You have lost this match!`
+        humanScore = 0;
+        computerScore = 0;
     }
 }
 
